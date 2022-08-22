@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wp">
+        <div id="khung">
+            <div id="input-form">
+                <form action="">
+                    <label for="name">Full Name:</label>
+                    <input id="name" type="text">
+                    <br>
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender-list">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <br>
+                    <label for="age">Age:</label>
+                    <input id="age" type="number">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email">
+                    <br>
+                    <label for="tel">Phone Number:</label>
+                    <input id="tel" type="tel">
+                    <br>
+                    <div class="btn-gr">
+                        <button type="submit">Save</button>
+                        <button type="reset">Reset</button>
+                        <button type="">Delete</button>
+                        <button type="">Find</button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="result-list">
+                <table style="font-size: 12px;">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Full Name</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tran Van A</td>
+                            <td>Nam</td>
+                            <td>18</td>
+                            <td>a@gmail.com</td>
+                            <td>0987 156 245</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Nguyen Thi B</td>
+                            <td>Nu</td>
+                            <td>20</td>
+                            <td>b@gmail.com</td>
+                            <td>0124 567 296</td>
+                        </tr> 
+                        <tr>
+                            <td>3</td>
+                            <td>Le Minh C</td>
+                            <td>Nam</td>
+                            <td>18</td>
+                            <td>c@gmail.com</td>
+                            <td>0947 156 245</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Ngo Thu D</td>
+                            <td>Nu</td>
+                            <td>20</td>
+                            <td>d@gmail.com</td>
+                            <td>0124 567 293</td>
+                        </tr>                                                  
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

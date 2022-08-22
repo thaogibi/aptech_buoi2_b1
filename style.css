@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wp {
+    width: 800px;
+    height:1000px;
+}
+
+
+#khung {
+    width: 640px;
+    margin: 0 auto;
+    background-color: #DCDEE4;
+
+}
+
+#input-form {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #DCDEE4;
+    line-height: 40px;
+    padding: 18px 10px;
+}
+
+
+
+#input-form * {
+    font-size: 12px;
+}
+
+#input-form form {
+    box-shadow: 0 0 3px rgb(96, 92, 92) ;
+    border-radius: 10px;
+    padding: 20px;
+
+}   
+
+#input-form input {
+    float: right;
+    width: 450px;
+    height:22px;
+    margin-top: 10px;
+    border: 1px solid rgb(145, 143, 143);
+    box-shadow: inset 1px 1px rgb(96, 92, 92);
+
+}
+
+#input-form input:hover {
+    box-shadow: 0 0 8px rgb(73, 129, 207);
+}
+
+#input-form select {
+    display: inline-block;
+    margin-left: 82px;
+    height: 22px;
+    width: 80px;
+    padding-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* css cho nút */
+    appearance: none;  /* bỏ mũi tên xuống sẵn có của select */
+	background-image: url('./btn.jpeg'),linear-gradient(to bottom, #ffffff 0%,#e6d0c4 100%);
+	background-repeat: no-repeat;
+    background-position: right;	
+    background-size: auto 22px;
+}
+
+#input-form .btn-gr {
+    margin-left: 130px;
+}
+
+#input-form button {
+    width: 60px;
+    height: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+    box-shadow: 0 0 3px rgb(92, 92, 92);
+    
+}
+
+
+#input-form select:hover,
+#input-form button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(73, 129, 207);
+
+}
+
+
+
+
+
+
+
+
+
+/* table */
+
+#result-list {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    line-height: 20px;
+}
+
+
+/* css màu cho các dòng xen kẽ => dùng LớP GIẢ */
+table tr:nth-child(odd){
+    background-color:#fff;
+}
+table tr:nth-child(even){
+    background-color:rgb(246, 242, 242);
+}
+
+#result-list table thead {
+    background-image:linear-gradient(#fff,#E1E2E6);
+}
+
+#result-list th {
+    border: 1px solid #000; /* tạo đường kẻ ô cho bảng sau đó gộp viền như ở dưới */
+}
+
+#result-list table {
+    border-collapse: collapse; /* gộp viền kẻ ô của bảng */
+}
